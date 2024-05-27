@@ -31,4 +31,9 @@ body{
     margin-top: 80px;
 }
 
+.conteudo-senha{
+    background: var(--fundo-senha);
+}
+
+
 
