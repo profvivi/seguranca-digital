@@ -7,10 +7,22 @@
     --fundo-senha: #00244D;
     --fundo-texto: #001E40;
     --borda: #0075FF;
+    --roboto:'Roboto-mono',sans-serif;
+    --roboto-mono:'Roboto-mono', monospace;
 }
 
 body{
     color: var(--branco);
     background-color: var(--cor-de-fundo);
-    font-family: "Roboto Mono", monospace;
+    font-family: 'Roboto-mono', monospace;
 }
+
+.titulo-principal{
+    font-family: var(--roboto-mono);
+    font-size: px;
+}
+
+.titulo-secundario{
+    font-size:24px ;
+}
+
